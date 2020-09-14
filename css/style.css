@@ -173,19 +173,36 @@ main{
 
 .pic{
     flex: 1;
-    padding-top: 5rem;
+    padding-top: 0rem;
+    animation: drop 1.5s ease forwards 3s;
 }
 
 
 .writings{
     flex: 1.5;
     margin: 5rem;
+    color: aliceblue;
+    animation: drop 1.5s ease forwards 3s;
 }
 
 .presentation{
+    animation: drop 1.5s ease forwards 3s;
     display: flex;
     width: 90%;
     margin: auto;
     align-items: center;
+    padding-top: 5rem;
 
+
+}
+
+@keyframes drop{
+    0%{
+        opacity: 0;
+        transform: translateY(-80px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
