@@ -7,9 +7,9 @@ let text = document.getElementById("logo");
 window.addEventListener('scroll',function(){
     var value = window.scrollY;
 
-    bg.style.top = value * 0.5 + 'px' ;
-    moon.style.left = -value * 0.5 + 'px' ;
-    mountain.style.top = -value * 0.15 + 'px' ;
-    road.style.top = value * 0.15 + 'px' ;
-    text.style.top = value * 1 + 'px' ;
+    bg.style.top = value * 0.3 + 'px' ;
+    moon.style.left = -value * 0.2 + 'px' ;
+    mountain.style.top = -value * 0.05 + 'px' ;
+    road.style.top = value * 0.05 + 'px' ;
+    text.style.top = value * 1.2 + 'px' ;
 })
