@@ -118,6 +118,20 @@ body::-webkit-scrollbar-thumb{
 .home{
     margin-top: 10rem;
     z-index: 1;
+    text-align: center;
+     text-align: center;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
 
 }
+.home:hover,
+.home:focus,
+.home:active {
+    transform: scale(1.01);
+}
+
 
